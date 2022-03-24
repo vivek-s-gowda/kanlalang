@@ -1,60 +1,60 @@
-<h1 align="center">Guru Lang</h1>
+<h1 align="center">Kanla Lang</h1>
 <p align="center">
 <a href="https://www.npmjs.com/package/gurulang"><img alt="Build" src="https://img.shields.io/badge/npm-gurulang-orange"/></a>
 
 </p>
 <p align="center">
-  <b>Guru lang is a fun programming language forked from BhaiLang :)</b>
+  <b>Kanla lang is a fun programming language forked from Gurulang :)</b>
 </p>
 <p align="center">
-Do checkout the online <a href="https://sheshavpd.github.io/gurulang/">Guru Lang PlayGround</a>.
+<!-- Do checkout the online <a href="https://sheshavpd.github.io/gurulang/">Guru Lang PlayGround</a>. -->
 </p>
 <br>
 
 <h2 align="center">Installation</h2>
 
 ```
-npm i -g gurulang
+npm i -g kanlalang
 ```
 
 <h2 align="center">Usage</h2>
 
-<h4 align="left">Create a new file (<code>test.guru</code>)</h4>
+<h4 align="left">Create a new file (<code>test.kanla</code>)</h4>
 
 
 <h4 align="left">Edit the file with a text editor.
 
 ```
-namskara guru
-  helu guru "Hello Guru";
-aythu guru
+enla
+  hel la "Hello kanla";
+aythu kanla
 
 ```
 
 <h4 align="left">Run</h4>
 
 ```
-gurulang test.guru
+kanlalang test.kanla
 ```
 
 <h4 align="left">Output</h4>
 
 ```
-Hello Guru
+Hello kanla
 ```
 
 <h2 align="center">Documentation</h2>
 
 <h3 align="center">General</h3>
-<p align="center"><code>namskara guru</code> is the entrypoint for the program and all program must end with <code>aythu guru</code>. Anything outside of it will be ignored.</p>
+<p align="center"><code>enla</code> is the entrypoint for the program and all program must end with <code>aythu kanla</code>. Anything outside of it will be ignored.</p>
 
 ```
 
 This will be ignored
 
-namskara guru
+enla
 // Write code here
-aythu guru
+aythu kanla
 
 This too
 ```
@@ -64,30 +64,30 @@ This too
 
 ```
 
-namskara guru
-  nodu guru a = 10;
-  nodu guru b = "two";
-  nodu guru c = 15;
+enla
+  nodla a = 10;
+  nodla b = "two";
+  nodla c = 15;
   a = a + 1;
   b = 21;
   c *= 2;
-aythu guru
+aythu kanla
 ```
 
 <h3 align="center">Types</h3>
-<p align="center">Numbers and strings are like other languages. Null values can be denoted using <code>nalla</code>. <code>nija</code> and <code>sullu</code> are the boolean values.</p>
+<p align="center">Numbers and strings are like other languages. Null values can be denoted using <code>kaali</code>. <code>nija</code> and <code>sullu</code> are the boolean values.</p>
 
 ```
 
-namskara guru
-  nodu guru a = 10;
-  nodu guru b = 10 + (15*20);
-  nodu guru c = "two";
-  nodu guru d = 'ok';
-  nodu guru e = nalla;
-  nodu guru f = nija;
-  nodu guru g = sullu;
-aythu guru
+enla
+  nodla a = 10;
+  nodla b = 10 + (15*20);
+  nodla c = "two";
+  nodla d = 'ok';
+  nodla e = nalla;
+  nodla f = nija;
+  nodla g = sullu;
+aythu kanla
 ```
 
 <h3 align="center">Built-ins</h3>
@@ -95,53 +95,53 @@ aythu guru
 
 ```
 
-namskara guru
-  helu guru "Hello World";
-  nodu guru a = 10;
+enla
+  hel la "Hello World";
+  nodla a = 10;
   {
-    nodu guru b = 20;
-    helu guru a + b;
+    nodla b = 20;
+    hel la a + b;
   }
-  helu guru 5, 'ok' , nija , sullu;
-aythu guru
+  hel la 5, 'ok' , nija , sullu;
+aythu kanla
 ```
 
 <h3 align="center">Conditionals</h3>
-<p align="center">Gurulang supports simple if else construct , <code>guru eega</code> block will execute if condition is <code>nija</code> and <code>illandre guru</code> block will execute if condition is <code>sullu</code>.</p>
+<p align="center">Kanlalang supports simple if else construct , <code>nodla eega</code> block will execute if condition is <code>nija</code> and <code>illandre nodla</code> block will execute if condition is <code>sullu</code>.</p>
 
 ```
 
-namskara guru
-  nodu guru a = 10;
-  guru eega (a < 25) aadre{
-   helu guru "a is less than 25";
-  } illandre guru {
-   helu guru "a is greater than or equal to 25";
+enla
+  nodla a = 10;
+  nodla eega (a < 25) aadre{
+   hel la "a is less than 25";
+  } illandre nodla {
+   hel la "a is greater than or equal to 25";
   }
-aythu guru
+aythu kanla
 ```
 
 <h3 align="center">Loops</h3>
-<p align="center">Statements inside <code>guru ellivargu</code> blocks are executed as long as a specified condition evaluates to nija. If the condition becomes <code>sullu</code>, statement within the loop stops executing and control passes to the statement following the loop. Use <code>saak bidu guru</code> to break the loop and <code className="language-cpp">mundhe nodu guru</code> to continue within loop.</p>
+<p align="center">Statements inside <code>nodla ellivargu</code> blocks are executed as long as a specified condition evaluates to nija. If the condition becomes <code>sullu</code>, statement within the loop stops executing and control passes to the statement following the loop. Use <code>saak bidla</code> to break the loop and <code className="language-cpp">mundhe nodla</code> to continue within loop.</p>
 
 
 ```
 
-namskara guru
-  nodu guru a = 0;
-  guru ellivargu (a < 10) {
+enla
+  nodla a = 0;
+  nodla ellivargu (a < 10) {
    a += 1;
-   guru eega (a == 5) aadre{
-    helu guru "olaginda helu guru ", a;
-    mundhe nodu guru;
+  nodla eega (a == 5) aadre{
+    hel la "olaginda hella ", a;
+    mundhe nodla;
    }
-   guru eega (a == 6) aadre{
-    saak bidu guru;
+  nodla eega (a == 6) aadre{
+    saak bidla;
    }
-   helu guru a;
+   hel la a;
   }
-  helu guru "done";
-aythu guru
+  hel la "done";
+aythu kanla
 ```
 
 
