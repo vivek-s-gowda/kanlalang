@@ -7,17 +7,17 @@ const features = [
     name: "General",
     description: (
       <>
-        <code className="language-cpp">namskara guru</code> is the entrypoint for the
+        <code className="language-cpp">enla</code> is the entrypoint for the
         program and all program must end with{" "}
-        <code className="language-cpp">aythu guru</code>. Anything outside of it
+        <code className="language-cpp">aythu kanla</code>. Anything outside of it
         will be ignored.
       </>
     ),
     code: `This will be ignored
 
-namskara guru
+enla
   // Write code here
-aythu guru
+aythu kanla
 
 This too
     `,
@@ -27,17 +27,17 @@ This too
     description: (
       <>
         Variables can be declared using{" "}
-        <code className="language-cpp">nodu guru</code>.
+        <code className="language-cpp">nod la</code>.
       </>
     ),
-    code: `namskara guru
-      nodu guru a = 10;
-      nodu guru b = "two";
-      nodu guru c = 15;
+    code: `enla
+      nod la a = 10;
+      nod la b = "two";
+      nod la c = 15;
       a = a + 1;
       b = 21;
       c *= 2;
-aythu guru
+aythu kanla
     `,
   },
   {
@@ -45,81 +45,81 @@ aythu guru
     description: (
       <>
         Numbers and strings are like other languages. Null values can be denoted
-        using <code className="language-cpp">nalla</code>.{" "}
+        using <code className="language-cpp">kaali</code>.{" "}
         <code className="language-cpp">nija</code> and{" "}
         <code className="language-cpp">sullu</code> are the boolean values.
       </>
     ),
-    code: `namskara guru
-    nodu guru a = 10;
-    nodu guru b = 10 + (15*20);
-    nodu guru c = "two";
-    nodu guru d = 'ok';
-    nodu guru e = nalla;
-    nodu guru f = nija;
-    nodu guru g = sullu;
-aythu guru
+    code: `enla
+    nod la a = 10;
+    nod la b = 10 + (15*20);
+    nod la c = "two";
+    nod la d = 'ok';
+    nod la e = kaali;
+    nod la f = nija;
+    nod la g = sullu;
+aythu kanla
     `,
   },
   {
     name: "Built-ins",
     description: (
       <>
-        Use <code className="language-cpp">helu guru</code> to print anything to
+        Use <code className="language-cpp">hel la</code> to print anything to
         console.
       </>
     ),
-    code: `namskara guru
-    helu guru "Hello World";
-    nodu guru a = 10;
+    code: `enla
+    hel la "Hello World";
+    nod la a = 10;
     {
-       nodu guru b = 20;
-       helu guru a + b;
+       nod la b = 20;
+       hel la a + b;
     }
-    helu guru 5, 'ok', nalla , nija , sullu;
-aythu guru
+    hel la 5, 'ok', kaali , nija , sullu;
+aythu kanla
     `,
   },
   {
     name: "Conditionals",
     description: (
       <>
-        GuruLang supports simple if else construct , <code className="language-cpp">guru eega</code> block will execute if condition is <code className="language-cpp">nija</code> and <code className="language-cpp">illandre guru</code> block will execute if condition is <code className="language-cpp">sullu</code>.
+        Kanlalang supports simple if else construct , <code className="language-cpp">nodla eega</code> block will execute if condition is <code className="language-cpp">nija</code> and <code className="language-cpp">illandre nodla</code> block will execute if condition is <code className="language-cpp">sullu</code>.
       </>
     ),
-    code: `namskara guru
-    nodu guru a = 10;
-    guru eega (a < 25) aadre{
-      helu guru "a is less than 25";
-    } illandre guru {
-      helu guru "a is greater than or equal to 25";
+    code: `enla
+    nod la a = 10;
+    nodla eega (a < 25) aadre{
+      hel la "a is less than 25";
+    } illandre nodla {
+      hel la "a is greater than or equal to 25";
     }
-aythu guru
+aythu kanla
     `
   },
   {
     name: "Loops",
     description: (
       <>
-        Statements inside <code className="language-cpp">guru ellivargu</code> blocks are executed as long as a specified condition evaluates to <code className="language-cpp">nija</code>. If the condition becomes <code className="language-cpp">sullu</code>, statement within the loop stops executing and control passes to the statement following the loop.
-        Use <code className="language-cpp">saak bidu guru</code> to break the loop and <code className="language-cpp">mundhe nodu guru</code> to continue within loop.
+        Statements inside <code className="language-cpp">madla ellivargu</code> blocks are executed as long as a specified condition evaluates to <code className="language-cpp">nija</code>. If the condition becomes <code className="language-cpp">sullu</code>, statement within the loop stops executing and control passes to the statement following the loop.
+        Use <code className="language-cpp">saak bidla</code> to break the loop and <code className="language-cpp">mundhe madla</code> to continue within loop.
       </>
     ),
-    code: `namskara guru
-    nodu guru a = 0;
-    guru ellivargu (a < 10) {
+    code: `enla
+    nod la a = 0;
+    madla ellivargu (a < 10) {
       a += 1;
-      guru eega (a == 5) aadre{
-        helu guru "andar se helu guru ", a;
-        mundhe nodu guru;
+      nodla eega (a == 5) aadre{
+        hel la "olgade aithe kanla ", a;
+        mundhe nodla;
       }
-      guru eega (a == 6) aadre{
-        saak bidu guru;
+      nodla eega (a == 6) aadre{
+        saak bidla;
       }
-      helu guru a;
+      hel la a;
     }
-    helu guru "done";
-aythu guru
+    hel la "done";
+aythu kanla
     `
   }
 
@@ -134,7 +134,7 @@ export default function Documentation() {
             Documentation
           </h2>
           <p className="mt-4 text-gray-300">
-            GuruLang is a fun programming language, forked from BhaiLang.
+            Kanla lang is a fun programming language, forked from Gurulang. Which is similar to Hassan, Mandya accent
           </p>
 
           <div className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">

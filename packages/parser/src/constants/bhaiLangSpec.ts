@@ -1,27 +1,27 @@
 export const TokenTypes = {
   NULL_TYPE: null,
 
-  HI_GURU_TYPE: "namskara guru",
+  HI_GURU_TYPE: "enla",
 
-  AYTHU_GURU_TYPE: "aythu guru",
+  AYTHU_GURU_TYPE: "aythu kanla",
 
-  HELU_GURU_TYPE: "helu guru",
+  HELU_GURU_TYPE: "hel la",
 
-  NODU_GURU_TYPE: "nodu guru",
+  NODU_GURU_TYPE: "nod la",
 
-  GURU_EEGA_TYPE: "guru eega",
+  GURU_EEGA_TYPE: "nodla eega",
 
   AADRE_TYPE: "aadre",
 
-  ILLANDRE_GURU_TYPE: "illandre guru",
+  ILLANDRE_GURU_TYPE: "illandre nodla",
 
-  GURU_ELLIVARGU_TYPE: "guru ellivargu",
+  GURU_ELLIVARGU_TYPE: "madla ellivargu",
 
-  SAAK_BIDU_GURU_TYPE: "saak bidu guru",
+  SAAK_BIDU_GURU_TYPE: "saak bidla",
 
-  MUNDHE_NODU_GURU_TYPE: "mundhe nodu guru",
+  MUNDHE_NODU_GURU_TYPE: "mundhe madla",
 
-  NALLA_TYPE: "NALLA",
+  NALLA_TYPE: "kaali",
 
   SEMI_COLON_TYPE: ";",
 
@@ -79,17 +79,17 @@ export const SPEC = [
   { regex: /^,/, tokenType: TokenTypes.COMMA_TYPE },
 
   //Keywords
-  { regex: /^\bnamskara guru\b/, tokenType: TokenTypes.HI_GURU_TYPE },
-  { regex: /^\baythu guru\b/, tokenType: TokenTypes.AYTHU_GURU_TYPE },
-  { regex: /^\bhelu guru\b/, tokenType: TokenTypes.HELU_GURU_TYPE },
-  { regex: /^\bnodu guru\b/, tokenType: TokenTypes.NODU_GURU_TYPE },
-  { regex: /^\bguru eega\b/, tokenType: TokenTypes.GURU_EEGA_TYPE },
+  { regex: /^\benla\b/, tokenType: TokenTypes.HI_GURU_TYPE },
+  { regex: /^\baythu kanla\b/, tokenType: TokenTypes.AYTHU_GURU_TYPE },
+  { regex: /^\bhel la\b/, tokenType: TokenTypes.HELU_GURU_TYPE },
+  { regex: /^\bnod la\b/, tokenType: TokenTypes.NODU_GURU_TYPE },
+  { regex: /^\bnodla eega\b/, tokenType: TokenTypes.GURU_EEGA_TYPE },
   { regex: /^\baadre\b/, tokenType: TokenTypes.AADRE_TYPE },
-  { regex: /^\billandre guru\b/, tokenType: TokenTypes.ILLANDRE_GURU_TYPE },
-  { regex: /^\bnalla\b/, tokenType: TokenTypes.NALLA_TYPE },
-  { regex: /^\bguru ellivargu\b/, tokenType: TokenTypes.GURU_ELLIVARGU_TYPE },
-  { regex: /^\bsaak bidu guru\b/, tokenType: TokenTypes.SAAK_BIDU_GURU_TYPE },
-  { regex: /^\bmundhe nodu guru\b/, tokenType: TokenTypes.MUNDHE_NODU_GURU_TYPE },
+  { regex: /^\billandre nodla\b/, tokenType: TokenTypes.ILLANDRE_GURU_TYPE },
+  { regex: /^\bkaali\b/, tokenType: TokenTypes.NALLA_TYPE },
+  { regex: /^\bmadla ellivargu\b/, tokenType: TokenTypes.GURU_ELLIVARGU_TYPE },
+  { regex: /^\bsaak bidla\b/, tokenType: TokenTypes.SAAK_BIDU_GURU_TYPE },
+  { regex: /^\bmundhe madla\b/, tokenType: TokenTypes.MUNDHE_NODU_GURU_TYPE },
 
   // Number
   { regex: /^-?\d+/, tokenType: TokenTypes.NUMBER_TYPE },

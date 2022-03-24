@@ -8,12 +8,17 @@ export default function Header() {
         <div className="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left vertical-flex-center">
-              <h1 className="hidden">GuruLang</h1>
+              <h1 className="hidden">KanlaLang</h1>
 
               <BhaiLangLogo/>
               <p
                 className="mt-3 text-center text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                A fun programming language forked from BhaiLang :)
+                A fun programming language forked from Gurulang :)
+              </p>
+              <p
+                className="mt-3 text-center text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                
+               Which is similar to Hassan, Mandya accent
               </p>
               <div className="prose text-center pt-4 pb-4">
               </div>
@@ -30,7 +35,7 @@ export default function Header() {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://github.com/sheshavpd/gurulang"
+                    href="https://github.com/vivek-s-gowda/kanlalang"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-bhagwa-700 bg-bhagwa-300 hover:bg-bhagwa-400 md:py-4 md:text-lg md:px-10"
                   >
                     View Source
@@ -40,11 +45,11 @@ export default function Header() {
               <div className="text-center text-gray-300 pt-6">
                 Author:
                 <a
-                  href="https://github.com/sheshavpd"
+                  href="https://github.com/vivek-s-gowda"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-bhagwa-700"> @sheshavpd </span>
+                  <span className="text-bhagwa-700"> @vivek-s-gowda </span>
                 </a>
               </div>
             </div>

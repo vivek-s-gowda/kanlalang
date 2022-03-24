@@ -9,24 +9,24 @@ import Terminal from "./Terminal";
 
 
 const initialCode = `
-namskara guru
-  helu guru "Kannada😁";
-  nodu guru appu_fan = nija;
-  nodu guru a = 1;
+enla
+  hel la "Kannada😁";
+  nod la appu_fan = nija;
+  nod la a = 1;
 
-  guru ellivargu (a < 10) {
+  madla ellivargu (a < 10) {
   
-    guru eega (appu_fan) aadre{
-      helu guru "Appu Rajakumara 😎";
+    nodla eega (appu_fan) aadre{
+      hel la "Appu Rajakumara 😎";
     }
-    guru eega(a == 5) aadre {
-      saak bidu guru; //break
+    nodla eega(a == 5) aadre {
+      saak bidla; //break
     }
     
     a += 1;
   }
 
-aythu guru
+aythu kanla
 `;
 
 const Code = (props: Props) => {

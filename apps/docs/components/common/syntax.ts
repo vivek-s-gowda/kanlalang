@@ -18,7 +18,7 @@ export const guruLangSyntax = languages.extend("clike", {
     pattern: /(["'])((?:\\\1|(?:(?!\1)).)*)(\1)/,
     greedy: true,
   },
-  keyword: /\b(?:namskara guru|aythu guru|helu guru|nodu guru|nalla|guru eega|aadre|illandre guru|guru ellivargu|saak bidu guru|mundhe nodu guru)\b/,
+  keyword: /\b(?:enla|aythu kanla|hel la|nod la|kaali|nodla eega|aadre|illandre nodla|madla ellivargu|saak bidla|mundhe nodla)\b/,
   boolean: /\b(?:nija|sullu)\b/,
   number: /(?:(?:\b\d+(?:\.\d*)?|\B\.\d+)(?:e[-+]?\d+)?)i?/i,
   operator:

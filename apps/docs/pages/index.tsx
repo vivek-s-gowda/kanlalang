@@ -10,11 +10,11 @@ export default function Docs() {
   return (
     <div className="bg-background">
       <Head>
-        <title>GuruLang - A toy programming language for Kannada :)</title>
-        <meta property="og:title" content="GuruLang - A toy programming language for Kannada" key="title" />
+        <title>Kanla lang - A toy programming language for Kannada :)</title>
+        <meta property="og:title" content="Kanla Lang - A toy programming language for Kannada" key="title" />
         <meta property="og:type" content="website" key="type" />
         <meta property="og:url" content="https://gurulang.js.org" key="url" />
-        <link rel="shortcut icon" href="/gurulang/favicon.ico" />
+        <link rel="shortcut icon" href="/kanlalang/favicon.ico" />
         <meta property="og:description" content="GuruLang is dynamically typed toy programming language for Kannada, written in Typescript. Forked from BhaiLang." key="description" />
         <meta name="description" content="GuruLang is dynamically typed toy programming language, based on an inside joke, written in Typescript. Forked from BhaiLang." />
         <meta property="og:site_name" content="Bhailang Documentation" key="siteName" />

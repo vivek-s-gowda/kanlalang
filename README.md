@@ -4,7 +4,7 @@
 
 </p>
 <p align="center">
-  <b>Kanla lang is a fun programming language forked from Gurulang :)</b>
+  <b>Kanla lang is a fun programming language forked from Gurulang :). Which is similar to Hassan, Mandya accent </b>
 </p>
 <p align="center">
 <!-- Do checkout the online <a href="https://sheshavpd.github.io/gurulang/">Guru Lang PlayGround</a>. -->
@@ -60,14 +60,14 @@ This too
 ```
 
 <h3 align="center">Variables</h3>
-<p align="center">Variables can be declared using <code>nodu guru</code>.</p>
+<p align="center">Variables can be declared using <code>nod la</code>.</p>
 
 ```
 
 enla
-  nodla a = 10;
-  nodla b = "two";
-  nodla c = 15;
+  nod la a = 10;
+  nod la b = "two";
+  nod la c = 15;
   a = a + 1;
   b = 21;
   c *= 2;
@@ -80,18 +80,18 @@ aythu kanla
 ```
 
 enla
-  nodla a = 10;
-  nodla b = 10 + (15*20);
-  nodla c = "two";
-  nodla d = 'ok';
-  nodla e = nalla;
-  nodla f = nija;
-  nodla g = sullu;
+  nod la a = 10;
+  nod la b = 10 + (15*20);
+  nod la c = "two";
+  nod la d = 'ok';
+  nod la e = kaali;
+  nod la f = nija;
+  nod la g = sullu;
 aythu kanla
 ```
 
 <h3 align="center">Built-ins</h3>
-<p align="center">Use <code>helu guru</code> to print anything to console.</p>
+<p align="center">Use <code>hel la</code> to print anything to console.</p>
 
 ```
 
@@ -112,7 +112,7 @@ aythu kanla
 ```
 
 enla
-  nodla a = 10;
+  nod la a = 10;
   nodla eega (a < 25) aadre{
    hel la "a is less than 25";
   } illandre nodla {
@@ -128,8 +128,8 @@ aythu kanla
 ```
 
 enla
-  nodla a = 0;
-  nodla ellivargu (a < 10) {
+  nod la a = 0;
+  madla ellivargu (a < 10) {
    a += 1;
   nodla eega (a == 5) aadre{
     hel la "olaginda hella ", a;
