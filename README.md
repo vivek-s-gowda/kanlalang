@@ -1,6 +1,6 @@
 <h1 align="center">Kanla Lang</h1>
 <p align="center">
-<a href="https://www.npmjs.com/package/gurulang"><img alt="Build" src="https://img.shields.io/badge/npm-gurulang-orange"/></a>
+<!-- <a href="https://www.npmjs.com/package/gurulang"><img alt="Build" src="https://img.shields.io/badge/npm-gurulang-orange"/></a> -->
 
 </p>
 <p align="center">
