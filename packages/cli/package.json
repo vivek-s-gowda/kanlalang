@@ -1,7 +1,7 @@
 {
-  "name": "gurulang",
-  "version": "0.0.7",
-  "description": "CLI for guru-lang",
+  "name": "kanlalang",
+  "version": "0.0.9",
+  "description": "CLI for Kanla-lang",
   "source": "src/index.ts",
   "main": "bin/index.js",
   "bin": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sheshavpd/gurulang.git"
+    "url": "git+https://github.com/vivek-s-gowda/kanlalang.git"
   },
   "keywords": [
     "programming",
@@ -24,7 +24,8 @@
     "bhai-lang",
     "bl",
     "javascript",
-    "typescript"
+    "typescript",
+    "gurulang"
   ],
   "license": "MIT",
   "devDependencies": {

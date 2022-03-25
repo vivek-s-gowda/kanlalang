@@ -25,7 +25,7 @@ export function getOperationValue(
   operator: string
 ) {
   const exception = new RuntimeException(
-    `En madthiddiya guru: "${operator}" jothe "${typeof operands.left}" matte "${typeof operands.right}" sari agalla.`
+    `En madthiddila neenu: "${operator}" jothe "${typeof operands.left}" matte "${typeof operands.right}" sari agalla kanla.`
   );
 
   switch (operator) {

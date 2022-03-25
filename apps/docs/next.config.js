@@ -1,3 +1,4 @@
 module.exports = {
-  basePath: '/kanlalang',
+  // basePath: '/kanlalang',
+  distDir: 'build',
 }
